@@ -1,0 +1,241 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(224, 222, 222);
+    margin: 0%;
+    padding: 0%;
+}
+.barre_recherche{
+height: 8vh;
+width: 100%;
+display: flex;
+justify-content: flex;
+align-items: center;
+background-color: rgb(2, 73, 139);
+color: white;
+}
+.les_icones{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.l_input{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 1px;
+}
+.lesIcon{
+    height: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.laListe{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 53, 53);
+    font-size: 22px;
+}
+
+
+.pub{
+    height:75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pourqui{
+    height: 97%;
+    width: 97%;
+    align-items: center;
+    border: solid grey 1px;
+    border-radius: 8px;
+    background-color: white;
+}
+.gentiside{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+.cube{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roue{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(2, 73, 139) 3px;
+}
+.in{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(../image/mr_robot.jpg);
+    background-size: 100%;
+}
+.name{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.cucu{
+    height: 70%;
+    width: 100%;
+}
+.roa1{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logox{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraphe{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.reac{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.d1{
+height: 45%;
+width: 94%;
+border-bottom: solid grey 1px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.haha{
+    width:15px;
+    display: flex;
+}
+.d2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(34, 33, 33);
+}
+.iconjaime{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notif{
+    display: none;
+    margin-top: 30px;
+    height: 180px;
+    width: 90vw;
+    background-color: white;
+    position:absolute;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.466) 1px;
+}
+.four{
+    height: 25%;
+    width: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.466) 1px;
+    display: flex;
+}
+.drapeau{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enre{
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div_video{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../image/video.PNG');
+    background-position: center;
+}
+.iz{
+    background-image: url('../image/awe.PNG');
+}
+.play{
+    height: 57px;
+    width: 57px;
+    border-radius: 50%;
+    border: solid white 2px;
+    background-color: rgba(0, 0, 0, 0.226);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.video{
+display: none;
+}
+.video1{
+    display: none;
+}
+
+.bubulle{
+    font-size: 15px;
+    color: white;
+    width: 9px;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 28, 28);
+    border-radius: 50%;
+    padding: 6.5px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    position:absolute;
+}

@@ -1,0 +1,293 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(192, 191, 191);
+    margin: 0%;
+    padding: 0%;
+}
+.barre_recherche{
+height: 8vh;
+width: 100%;
+display: flex;
+justify-content: flex;
+align-items: center;
+background-color: rgb(2, 73, 139);
+color: white;
+}
+.les_icones{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.l_input{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 1px;
+}
+
+
+
+.lesIcon{
+    height: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.laListe{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 53, 53);
+    font-size: 22px;
+}
+
+.voulez{
+    margin-top: 4px;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.one1{
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: url(../image/sasuke.jpg);
+    background-size: 100%;
+}
+.one{
+    color: rgb(54, 53, 53);
+    width: 17%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dire{
+    height: 100%;
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.queVous{
+    height: 62%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid rgba(63, 63, 63, 0.863) 1px;
+    padding: 0px 5%;
+    display: flex;
+    align-items: center;
+    color: rgb(54, 53, 53);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.lesStory{
+    height: 26vh;
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+}
+.titre{
+    height: 16%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+}
+.tiroir{
+    height: 84%;
+    width:94;
+    margin: 0px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+.cubes{
+    height: 95%;
+    width: 24%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: right;
+    background-image: url(../image/saske.jpg);
+}
+.cerclell{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(2, 73, 139) 3px;
+}
+.no{
+    border: none;
+}
+.pseudo{
+    margin-left:10px ;
+    margin-bottom: 10px;
+    color: white;
+}
+.rick{
+    background-image: url('../image/harley.jpg');
+    background-size: 100%;
+}
+.heisenberg{
+    background-image: url('../image/heisenberg.jpg');
+    background-size: 100%;
+}
+.jinx{
+    background-image: url('../image/powder\ jinx.jpg');
+    background-size: 100%;
+}
+
+
+
+
+
+.publication{
+    height: 60vh;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+}
+.popCorn{
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+.tr1{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+}
+.demon{
+    background-image: url('../image/demons.jpg');
+    background-size: 100%;
+}
+.tr2{
+    height: 100%;
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pisedo{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heure{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(78, 78, 78);
+}
+.sary{
+    height:67%;
+    width: 100%;
+    background-image: url('../image/pub.jpg');
+    background-size: 100%;
+}
+.react{
+    height: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reaction{
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.haha{
+    width:15px;
+    display: flex;
+}
+.interaction{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: solid rgba(37, 37, 37, 0.74) 1px;
+}
+.trio{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubulle{
+    font-size: 15px;
+    color: white;
+    width: 9px;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 28, 28);
+    border-radius: 50%;
+    padding: 6.5px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    position:absolute;
+}
+.bubulle1{
+    font-size: 15px;
+    color: white;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(7, 189, 7);
+    border-radius: 50%;
+    margin-top: 31px;
+    margin-left: 31px;
+    border: solid rgb(31, 31, 31) 2px;
+    position:absolute;
+}

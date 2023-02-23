@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+.ensemble{
+    height: 100vh;
+    width: 100%;
+}
+.logo{
+    height: 8%;
+    width: 100%;
+    background-image: url('image/logo.jpg');
+    background-size: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.418) 0.1px;
+}
+.les_autres{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.texte{
+    height: 20%;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    color: rgb(41, 41, 41);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.les_bloc{
+    height: 80%;
+    width: 92%;
+    border: solid rgba(0, 0, 0, 0.418) 1px;
+    border-radius: 5px;
+}
+.elements{
+    height: 33%;
+    width: 100%;
+    border-bottom: solid rgba(0, 0, 0, 0.418) 1px;
+    display: flex;
+}
+.elements1{
+    height: 33%;
+    width: 100%;
+}
+.image{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle{
+    height: 55px;
+    width: 55px;
+    background-image: url('image/sasuke.jpg');
+    background-size: 100%;
+    border-radius: 50%;
+    /* background-color: brown; */
+
+}
+.nom{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.l_icone{
+height: 100%;
+width: 15%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: brown;
+}
+

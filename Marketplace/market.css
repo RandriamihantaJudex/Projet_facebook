@@ -1,0 +1,122 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: rgb(224, 222, 222);
+    margin: 0%;
+    padding: 0%;
+}
+.barre_recherche{
+height: 8vh;
+width: 100%;
+display: flex;
+justify-content: flex;
+align-items: center;
+background-color: rgb(2, 73, 139);
+color: white;
+}
+.les_icones{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.l_input{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 1px;
+}
+.lesIcon{
+    height: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.laListe{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 53, 53);
+    font-size: 22px;
+}
+
+.recherche{
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+    margin: 7px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tee{
+    height: 90%;
+    width: 80%;
+    border: none;
+    font-size: 15px;
+}
+
+.toamasina{
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bleu{
+    margin-left:3px;
+    height: 45%;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(2, 73, 139) ;
+    justify-content: space-between;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bleu1{
+    margin-left:3px;
+    height: 45%;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: solid rgb(39, 39, 39) 1px;
+    justify-content: space-between;
+    color: rgb(39, 39, 39);
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bubulle{
+    font-size: 15px;
+    color: white;
+    width: 9px;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 28, 28);
+    border-radius: 50%;
+    padding: 6.5px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    position:absolute;
+}

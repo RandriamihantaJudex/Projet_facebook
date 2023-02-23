@@ -1,0 +1,195 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.barre_recherche{
+height: 8vh;
+width: 100%;
+display: flex;
+justify-content: flex;
+align-items: center;
+background-color: rgb(2, 73, 139);
+color: white;
+}
+.les_icones{
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.l_input{
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 1px;
+}
+.lesIcon{
+    height: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.laListe{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 53, 53);
+    font-size: 22px;
+}
+
+.simple{
+    margin-top: 5px;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lemarge{
+    height: 100%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-bottom: solid rgba(128, 128, 128, 0.658) 0.5px;
+}
+.roa{
+    height: 70%;
+    background-color: rgb(229, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 9px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    color: rgb(8, 8, 8);
+    font-weight:bolder;
+}
+.invite{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.lemarge1{
+    height: 100%;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+    color: black;
+}
+.aucune{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(128, 128, 128, 0.733);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.connais{
+    margin-bottom: 9px;
+    height: 1vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.personne{
+    margin-top: 6px;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+}
+.pdp{
+    height: 100%;
+    width: 25%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+.orb{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-size: 100%;
+}
+.other{
+    height: 100%;
+    width: 65%;
+}
+.p1{
+    height: 29%;
+    width: 100%;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    color: rgb(104, 104, 104);
+}
+.p2{
+    height: 41%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn{
+    height: 99%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(0, 60, 255);
+    border-radius: 7px;
+}
+.cancel{
+    height: 97%;
+    width: 95%;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: solid orangered 1px;
+}
+.mini{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-size: 100%;
+}
+
+.bubulle{
+    font-size: 15px;
+    color: white;
+    width: 9px;
+    height: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 28, 28);
+    border-radius: 50%;
+    padding: 6.5px;
+    margin-bottom: 27px;
+    margin-left: 27px;
+    position:absolute;
+}
